@@ -1,0 +1,31 @@
+{
+  "name": "e-commerce",
+  "version": "1.0.0",
+  "description": "E-commerce REST API with authentication, filters, and Cloudinary image upload",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Rinooj N R",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "body-parser": "^2.2.0",
+    "cloudinary": "^2.7.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.1.0",
+    "express": "^5.1.0",
+    "express-validator": "^7.2.1",
+    "helmet": "^8.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^2.0.1",
+    "pg": "^8.16.3",
+    "sequelize": "^6.37.7",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
+  },
+  "devDependencies": {
+    "jest": "^30.0.4",
+    "supertest": "^7.1.3"
+  }
+}
